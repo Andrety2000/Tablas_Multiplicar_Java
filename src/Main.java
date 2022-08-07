@@ -6,8 +6,12 @@ import java.awt.event.ActionListener;
 
 public class Main {
     public static void main(String[] args) {
-
-
+        
+        int 
+        ///Base de Datos de Administración de la empresa...
+        System.out.println();
+        System.out.println("\Insertar Datos en la Tabla");
+       
         JFrame frame = new JFrame(" Mi Base de Datos");
         JTable table = new JTable();
         DefaultTableModel tableModel = new DefaultTableModel(5, 3);
@@ -31,6 +35,8 @@ public class Main {
         frame.add(table, 0, 0);
         frame.add(okButton, 0, 1);
         frame.setVisible(true);
+        
+     
 
     }
 }
